@@ -1,0 +1,8 @@
+flask
+flask-caching
+flask-restful
+flask-sqlalchemy
+jsonschema
+rfc3339-validator
+SQLAlchemy
+gunicorn<25
