@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+flask --app=sensorhub init-db
+flask --app=sensorhub testgen
 echo "=== MASTER KEY ==="
 flask --app=sensorhub masterkey
 echo "=== END MASTER KEY ==="
